@@ -13,6 +13,8 @@
 		048FD31B2B7A74B600690D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048FD3192B7A74B600690D5A /* Main.storyboard */; };
 		048FD31D2B7A74B700690D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048FD31C2B7A74B700690D5A /* Assets.xcassets */; };
 		048FD3202B7A74B700690D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048FD31E2B7A74B700690D5A /* LaunchScreen.storyboard */; };
+		048FD3292B7A763400690D5A /* Constuctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FD3282B7A763400690D5A /* Constuctor.swift */; };
+		048FD32C2B7A822700690D5A /* ViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048FD32B2B7A822700690D5A /* ViewController+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		048FD31C2B7A74B700690D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048FD31F2B7A74B700690D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048FD3212B7A74B700690D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048FD3282B7A763400690D5A /* Constuctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constuctor.swift; sourceTree = "<group>"; };
+		048FD32B2B7A822700690D5A /* ViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		048FD3122B7A74B600690D5A /* TMS-IOS-LESSON-22-HW */ = {
 			isa = PBXGroup;
 			children = (
+				048FD32A2B7A820B00690D5A /* Extensions */,
+				048FD3272B7A762400690D5A /* Utils */,
 				048FD3132B7A74B600690D5A /* AppDelegate.swift */,
 				048FD3152B7A74B600690D5A /* SceneDelegate.swift */,
 				048FD3172B7A74B600690D5A /* ViewController.swift */,
@@ -65,6 +71,22 @@
 				048FD3212B7A74B700690D5A /* Info.plist */,
 			);
 			path = "TMS-IOS-LESSON-22-HW";
+			sourceTree = "<group>";
+		};
+		048FD3272B7A762400690D5A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				048FD3282B7A763400690D5A /* Constuctor.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		048FD32A2B7A820B00690D5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				048FD32B2B7A822700690D5A /* ViewController+extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				048FD3182B7A74B600690D5A /* ViewController.swift in Sources */,
+				048FD32C2B7A822700690D5A /* ViewController+extension.swift in Sources */,
 				048FD3142B7A74B600690D5A /* AppDelegate.swift in Sources */,
 				048FD3162B7A74B600690D5A /* SceneDelegate.swift in Sources */,
+				048FD3292B7A763400690D5A /* Constuctor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +319,8 @@
 				DEVELOPMENT_TEAM = N3LRJV66ML;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TMS-IOS-LESSON-22-HW/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,6 +349,8 @@
 				DEVELOPMENT_TEAM = N3LRJV66ML;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "TMS-IOS-LESSON-22-HW/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
